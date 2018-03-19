@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="136" height="130">
+  <defs>
+      <filter id="b" width="400%" height="400%" x="-200%" y="-200%">
+        <feOffset in="SourceAlpha" result="offOut"/>
+        <feGaussianBlur in="offOut" result="blurOut" stdDeviation="2.5"/>
+        <feComponentTransfer in="blurOut" result="opacOut">
+          <feFuncA tableValues="0 0.5" type="table"/>
+        </feComponentTransfer>
+        <feBlend in="SourceGraphic" in2="opacOut"/>
+      </filter>
+    </defs><path fill="red" d="M-15.311 63.174h166.198v4H-15.311z" filter="url(#b)" transform="rotate(-45 67.78215224 65.19118897)"/><path fill-rule="evenodd" d="M4.1 101.266v-26.3l36.5-36.9 24.1 24.3 2.8-2.8-25.5-25.8c-.8-.8-2.1-.8-2.8 0l-35.1 35.5v-44.8c0-2.5 2.1-4.6 4.6-4.6h98.6l4-4H8.6c-4.7 0-8.6 3.9-8.6 8.6v76.8c0 4.7 3.9 8.6 8.6 8.6h8.6l4-4H8.6c-2.5 0-4.5-2.1-4.5-4.6zm123.3-85.4h-2.8l-4 4h6.8c2.5 0 4.6 2.1 4.6 4.6v58.7l-28.5-28.8c-.4-.4-.9-.6-1.4-.6-.5 0-1 .2-1.4.6l-18.3 18.3-7.3-7.4-2.8 2.8 37.3 37.7h-75l-4 4h96.8c4.7 0 8.6-3.9 8.6-8.6v-76.7c0-4.8-3.9-8.6-8.6-8.6zm4.563 85.1c0 2.5-2.1 4.6-4.6 4.6h-12.2l-30-30.3 16.8-16.9 29.9 30.2v12.4h.1z"/><path fill-opacity=".33" d="M131.963 100.966c0 2.5-2.1 4.6-4.6 4.6h-12.2l-30-30.3 16.8-16.9 29.9 30.2v12.4h.1z"/>
+</svg>
